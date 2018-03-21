@@ -1,4 +1,5 @@
-p , address{
+p,
+address {
     color: #616161;
     font-size: 1.25em;
     margin-top: 10px;
@@ -40,10 +41,44 @@ h2 {
     margin: 0;
 }
 
-.intro{
+.intro {
     color: #666666;
     font-family: 'Varela Round', Helvetica, sans-serif;
     font-size: 1.2em;
     margin-left: 0;
     margin-bottom: 25px;
+}
+
+.btn {
+    border-radius: 5px;
+    font-family: Arial, Helvetica, serif;
+    font-size: .8em;
+}
+
+.delete {
+    background-color: red;
+}
+
+.add {
+    background-color: green;
+}
+
+.edit {
+    background-color: grey;
+}
+
+#banner {
+    background: #CC0000;
+    height: 300px;
+    width: 720px;
+    margin-top: 23px;
+}
+
+.tip::after {
+    content: "Hot TIP!"
+}
+
+::selection {
+    color: #FFFFFF;
+    background-color: #993366;
 }
